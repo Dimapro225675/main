@@ -1,0 +1,14 @@
+@import 'basic/_reset.css';
+@import 'basic/_global.css';
+@import 'basic/_fonts.css';
+@import 'basic/_btn.css';
+@import 'basic/_modal.css';
+@import 'font/_font.css';
+
+@import "components/_header.css";
+@import "home/_home.css";
+@import "home/_services.css";
+@import "home/_news.css";
+@import "home/_vakansi.css";
+@import "home/_contact.css";
+@import "components/_footer.css";

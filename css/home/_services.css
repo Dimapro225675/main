@@ -1,0 +1,232 @@
+.services {
+    padding: 100px 0;
+}
+
+.services__inner {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 100px;
+    border-radius: 6px;
+}
+
+.foon1 {
+    background-image: url(/imges/beard1.jpg);
+    border-radius: 6px;
+}
+
+.foon2 {
+    background-image: url(/imges/haircat1.jpg);
+    border-radius: 6px;
+}
+
+.fon3 {
+    background-image: url(/imges/tatu1.jpg);
+    border-radius: 6px;
+}
+
+.fon4 {
+    background-image: url(/imges/haircat-man.jpg);
+    border-radius: 6px;
+}
+
+.fon5 {
+    background-image: url(/imges/king.jpg);
+    border-radius: 6px;
+}
+
+.fon6 {
+    background-image: url(/imges/laying.jpg);
+    border-radius: 6px;
+}
+
+.services__item {
+    display: grid;
+    padding-left: 28px;
+    width: 600px;
+    height: 355px;
+}
+
+.services__title {
+    padding-top: 23px;
+    font-size: 28px;
+}
+
+.services__text-item {
+    gap: 8px;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 0.75);;
+}
+
+.services__btn {
+    display: grid;
+    justify-content: end;
+    align-content: end;
+    padding-right: 28px;
+    padding-bottom: 25px;
+}
+
+@media (max-width: 1600px) {
+    .services {
+        padding: 80px 0;
+    }
+    
+    .services__inner {
+        gap: 80px;
+    }
+    
+    .services__item {
+        width: 550px;
+        height: 320px;
+    }
+    
+    .services__title {
+        font-size: 26px;
+    }
+    
+    .services__text-item {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .services {
+        padding: 70px 0;
+    }
+    
+    .services__inner {
+        gap: 60px;
+    }
+    
+    .services__item {
+        width: 480px;
+        height: 280px;
+        padding-left: 20px;
+    }
+    
+    .services__title {
+        font-size: 24px;
+        padding-top: 18px;
+    }
+    
+    .services__text-item {
+        font-size: 20px;
+    }
+    
+    .services__btn {
+        padding-right: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .services {
+        padding: 60px 0;
+    }
+    
+    .services__inner {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    
+    .services__item {
+        width: 100%;
+        max-width: 600px;
+        height: 320px;
+        margin: 0 auto;
+    }
+    
+    .services__title {
+        font-size: 22px;
+    }
+    
+    .services__text-item {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .services {
+        padding: 50px 0;
+    }
+    
+    .services__inner {
+        gap: 40px;
+    }
+    
+    .services__item {
+        height: 280px;
+        padding-left: 15px;
+    }
+    
+    .services__title {
+        font-size: 20px;
+        padding-top: 15px;
+    }
+    
+    .services__text-item {
+        font-size: 16px;
+    }
+    
+    .services__btn {
+        padding-right: 15px;
+        padding-bottom: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .services {
+        padding: 40px 0;
+    }
+    
+    .services__inner {
+        gap: 30px;
+    }
+    
+    .services__item {
+        height: 220px;
+        padding-left: 12px;
+    }
+    
+    .services__title {
+        font-size: 18px;
+        padding-top: 12px;
+    }
+    
+    .services__text-item {
+        font-size: 14px;
+    }
+    
+    .services__btn {
+        padding-right: 12px;
+        padding-bottom: 12px;
+    }
+}
+
+@media (max-width: 320px) {
+    .services {
+        padding: 30px 0;
+    }
+    
+    .services__inner {
+        gap: 25px;
+    }
+    
+    .services__item {
+        height: 180px;
+        padding-left: 10px;
+    }
+    
+    .services__title {
+        font-size: 16px;
+        padding-top: 10px;
+    }
+    
+    .services__text-item {
+        font-size: 13px;
+    }
+    
+    .services__btn {
+        padding-right: 10px;
+        padding-bottom: 10px;
+    }
+}

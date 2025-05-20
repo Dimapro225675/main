@@ -1,0 +1,309 @@
+.fon {
+  background-image: url(/imges/fon1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.header {
+  position: relative;
+  height: 111px;
+}
+
+.header::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+}
+
+.header__inner {
+  padding: 10px;
+  height: 111px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.header__nav {
+  display: flex;
+  align-items: center;
+}
+
+.header__list {
+  display: flex;
+  gap: 35px;
+}
+
+.header__link {
+  font-size: 20px;
+}
+
+.header__dow {
+  padding-top: 95px;
+  position: relative;
+  text-align: center;
+}
+
+.header__down {
+  gap: 25px;
+  display: grid;
+  align-items: center;
+}
+
+.header__title {
+  font-size: 52px;
+  width: 390px;
+  margin: 0 auto;
+}
+
+.header__button {
+  padding-top: 250px;
+}
+
+.fon2 {
+  background-image: url(/imges/fon2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 510px;
+}
+
+.foon3 {
+  background-image: url(/imges/fon3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 510px;
+}
+
+.foon4 {
+  background-image: url(/imges/fon4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 510px;
+}
+
+.foon5 {
+  background-image: url(/imges/fon5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 510px;
+}
+
+.header__services {
+  padding-top: 180px;
+  padding-bottom: 64px;
+  padding-left: 100px;
+}
+
+.header__news {
+  padding-top: 180px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+
+.header__vakansi {
+  padding-top: 180px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+
+.header__contact {
+  padding-top: 180px;
+  padding-bottom: 40px;
+  padding-left: 100px;
+}
+
+.menu-header {
+    position: relative;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    z-index: 16;
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger {
+    width: 50px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255,101,47,.2);
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before,
+  .menu-btn__burger::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 6px;
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(255, 255, 255, 0.2);
+    transition: all .5s ease-in-out;
+  }
+  .menu-btn__burger::before {
+    transform: translateY(-16px);
+  }
+  .menu-btn__burger::after {
+    transform: translateY(16px);
+  }
+  /* ANIMATION */
+  .menu-header.open .menu-btn__burger {
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+  }
+  .menu-header.open .menu-btn__burger::before {
+    transform: rotate(45deg) translate(35px, -35px);
+  }
+  .menu-header.open .menu-btn__burger::after {
+    transform: rotate(-45deg) translate(35px, 35px);
+  }
+
+.header__mobile {
+    background-color: rgb(206, 202, 202);
+    top: 0;
+    padding: 130px 15px 40px;
+    width: 100%;
+    height: 100vh;
+    z-index: 15;
+    transform: translateX(100%);
+    transition: transform .6s;
+    position: fixed;
+    display: none;
+}
+
+.header__mobile.active {
+  transform: translateX(0);
+}
+
+.logo {
+  z-index: 16;
+}
+
+@media (max-width: 1600px) {
+  .header__title {
+    font-size: 48px;
+    width: 360px;
+  }
+  
+  .header__button {
+    padding-top: 220px;
+  }
+  
+  .header__services, 
+  .header__news, 
+  .header__vakansi, 
+  .header__contact {
+    padding-top: 160px;
+    padding-left: 80px;
+  }
+  
+  .fon2, .foon3, .foon4, .foon5 {
+    height: 450px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header__list {
+    gap: 25px;
+  }
+  
+  .header__link {
+    font-size: 18px;
+  }
+  
+  .header__title {
+    font-size: 42px;
+    width: 320px;
+  }
+  
+  .header__button {
+    padding-top: 180px;
+  }
+  
+  .fon2, .foon3, .foon4, .foon5 {
+    height: 400px;
+  }
+  
+  .header__services, 
+  .header__news, 
+  .header__vakansi, 
+  .header__contact {
+    padding-top: 110px;
+    padding-left: 60px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .header {
+    height: 90px;
+  }
+  
+  .header__inner {
+    height: 90px;
+  }
+  
+  .header__list {
+    gap: 20px;
+  }
+  
+  .header__link {
+    font-size: 16px;
+  }
+  
+  .header__dow {
+    padding-top: 70px;
+  }
+  
+  .header__title {
+    font-size: 36px;
+    width: 280px;
+  }
+  
+  .header__button {
+    padding-top: 150px;
+  }
+  
+  .fon2, .foon3, .foon4, .foon5 {
+    height: 350px;
+  }
+  
+  .header__services, 
+  .header__news, 
+  .header__vakansi, 
+  .header__contact {
+    padding-top: 80px;
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 550px){
+    .header__nav {
+        display: none;
+    }
+
+    .header__list {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .header__link {
+        font-size: 20px;
+    }
+
+    .header__mobile {
+        display: block;
+    }
+
+    .menu-header {
+        display: flex;
+    }
+}

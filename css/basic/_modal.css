@@ -1,0 +1,537 @@
+.modal {
+    position: fixed;
+    z-index: 22;
+    width: 700px;
+    height: 590px;
+    background-color: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+    border-radius: 40px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    display: none;
+}
+
+.modal.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: flex;
+}
+
+.modal__exit {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.modal__exit2 {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.modal__inner-exit {
+    display: flex;
+    justify-content: end;
+    padding-top: 20px;
+    margin-right: 20px;
+}
+
+.modal__inner {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 10px;
+}
+
+.modal__head {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.modal__mid {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.modal__form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.modal__text2 {
+    font-size: 20px;
+}
+
+.modal__item {
+    width: 604px;
+    height: 56px;
+    background-color: #F2C57E;
+    border-radius: 30px;
+    color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+}
+
+.modal__text3 {
+    padding-left: 20px;
+}
+
+.modal__down {
+    display: flex;
+    justify-content: end;
+}
+
+.modal__barber-Valera {
+    position: fixed;
+    z-index: 21;
+    width: 1260px;
+    height: 516px;
+    background-color: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 40px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.modal__barber-Valera.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: flex;
+}
+
+.modal__barber-ded {
+    position: fixed;
+    z-index: 21;
+    width: 1260px;
+    height: 516px;
+    background-color: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 40px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.modal__barber-ded.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: flex;
+}
+
+.modal__barber-leha {
+    position: fixed;
+    z-index: 21;
+    width: 1260px;
+    height: 516px;
+    background-color: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 40px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.modal__barber-leha.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: flex;
+}
+
+.modal__barber-psih {
+    position: fixed;
+    z-index: 21;
+    width: 1260px;
+    height: 516px;
+    background-color: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    display: none;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 40px;
+    border-radius: 50px 50px 50px 50px;
+}
+
+.modal__barber-psih.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: flex;
+}
+
+.modal__inner-barber {
+    display: flex;
+}
+
+.modal__item-barber {
+    width: 630px;
+    display: flex;
+    flex-direction: column;
+}
+
+.modal__img {
+    border-radius: 50px 0 0 50px;
+}
+
+.modal__title {
+    font-size: 30px;
+    padding-top: 20px;
+}
+
+.modal__text-barber {
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.7);
+    max-width: 480px;
+}
+
+.modal__date {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.75);
+    display: grid;
+    align-content: end;
+    padding-bottom: 47px;
+}
+
+.modal__barber-item {
+    padding-left: 70px;
+    height: 455px;
+    display: grid;
+}
+
+.modal2 {
+    position: fixed;
+    z-index: 22;
+    width: 700px;
+    height: 590px;
+    background-color: #fff;
+    color: #000;
+    top: 50%;
+    left: 50%;
+    flex-direction: column;
+    border-radius: 40px;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    display: none;
+}
+
+.modal2.active {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+    display: flex;
+}
+
+@media (max-width: 1600px) {
+    .modal__barber-Valera,
+    .modal__barber-ded,
+    .modal__barber-leha,
+    .modal__barber-psih {
+        width: 1100px;
+        height: 450px;
+    }
+    
+    .modal__item-barber {
+        width: 550px;
+    }
+    
+    .modal__text-barber {
+        max-width: 420px;
+    }
+    
+    .modal__barber-item {
+        padding-left: 50px;
+        height: 400px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .modal, .modal2 {
+        width: 600px;
+        height: 500px;
+    }
+    
+    .modal__item {
+        width: 520px;
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    .modal__barber-Valera,
+    .modal__barber-ded,
+    .modal__barber-leha,
+    .modal__barber-psih {
+        width: 900px;
+        height: 400px;
+    }
+    
+    .modal__item-barber {
+        width: 450px;
+    }
+    
+    .modal__title {
+        font-size: 26px;
+    }
+    
+    .modal__text-barber {
+        font-size: 18px;
+        max-width: 380px;
+    }
+    
+    .modal__date {
+        font-size: 16px;
+        padding-bottom: 35px;
+    }
+    
+    .modal__barber-item {
+        padding-left: 40px;
+        height: 350px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .modal, .modal2 {
+        width: 500px;
+        height: 450px;
+        border-radius: 30px;
+    }
+    
+    .modal__inner {
+        gap: 30px;
+    }
+    
+    .modal__item {
+        width: 440px;
+        height: 45px;
+        font-size: 16px;
+    }
+    
+    .modal__text2 {
+        font-size: 18px;
+    }
+    
+    .modal__barber-Valera,
+    .modal__barber-ded,
+    .modal__barber-leha,
+    .modal__barber-psih {
+        width: 750px;
+        height: 350px;
+        border-radius: 40px;
+    }
+    
+    .modal__item-barber {
+        width: 375px;
+    }
+    
+    .modal__title {
+        font-size: 24px;
+        padding-top: 15px;
+    }
+    
+    .modal__text-barber {
+        font-size: 16px;
+        max-width: 320px;
+    }
+    
+    .modal__date {
+        font-size: 14px;
+        padding-bottom: 25px;
+    }
+    
+    .modal__barber-item {
+        padding-left: 30px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .modal, .modal2 {
+        width: 400px;
+        height: 400px;
+        border-radius: 25px;
+    }
+
+    .modal__inner-exit {
+        padding-top: 15px;
+        margin-right: 15px;
+    }
+    
+    .modal__exit, .modal__exit2 {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .modal__inner {
+        gap: 20px;
+        padding-top: 5px;
+    }
+    
+    .modal__head {
+        gap: 25px;
+    }
+    
+    .modal__item {
+        width: 350px;
+        height: 40px;
+        font-size: 14px;
+    }
+    
+    .modal__text3 {
+        padding-left: 15px;
+    }
+    
+    .modal__barber-Valera,
+    .modal__barber-ded,
+    .modal__barber-leha,
+    .modal__barber-psih {
+        width: 600px;
+        height: 450px;
+        flex-direction: column;
+        border-radius: 30px;
+    }
+    
+    .modal__inner-barber {
+        flex-direction: column;
+    }
+    
+    .modal__item-barber {
+        width: 100%;
+        padding: 20px;
+    }
+    
+    .modal__img {
+        border-radius: 30px 30px 0 0;
+        height: 200px;
+    }
+    
+    .modal__title {
+        font-size: 22px;
+        padding-top: 10px;
+    }
+    
+    .modal__text-barber {
+        font-size: 14px;
+        max-width: 100%;
+    }
+    
+    .modal__date {
+        font-size: 13px;
+        padding-bottom: 15px;
+    }
+    
+    .modal__barber-item {
+        padding-left: 20px;
+        height: auto;
+    }
+}
+
+@media (max-width: 480px) {
+    .modal, .modal2 {
+        width: 320px;
+        height: 450px;
+        border-radius: 20px;
+    }
+    
+    .modal__item {
+        width: 280px;
+        height: 38px;
+        font-size: 13px;
+    }
+    
+    .modal__text2 {
+        font-size: 16px;
+    }
+    
+    .modal__barber-Valera,
+    .modal__barber-ded,
+    .modal__barber-leha,
+    .modal__barber-psih {
+        width: 350px;
+        height: 500px;
+    }
+    
+    .modal__img {
+        height: 180px;
+    }
+    
+    .modal__title {
+        font-size: 20px;
+    }
+    
+    .modal__text-barber {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 320px) {
+    .modal, .modal2 {
+        width: 280px;
+        height: 420px;
+        border-radius: 15px;
+    }
+    
+    .modal__inner-exit {
+        padding-top: 10px;
+        margin-right: 10px;
+    }
+    
+    .modal__exit, .modal__exit2 {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .modal__item {
+        width: 240px;
+        height: 35px;
+        font-size: 12px;
+    }
+    
+    .modal__text3 {
+        padding-left: 10px;
+    }
+    
+    .modal__barber-Valera,
+    .modal__barber-ded,
+    .modal__barber-leha,
+    .modal__barber-psih {
+        width: 290px;
+        height: 450px;
+    }
+    
+    .modal__img {
+        height: 150px;
+    }
+    
+    .modal__title {
+        font-size: 18px;
+    }
+}

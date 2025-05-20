@@ -1,0 +1,538 @@
+.home {
+    padding-top: 100px;
+}
+
+.home__inner {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__title {
+    padding-bottom: 50px;
+}
+
+.home__text {
+    max-width: 1000px;
+}
+
+.home__icon {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    padding: 0 50px;
+}
+
+.home__icon-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__icon-img {
+    padding-bottom: 61px;
+}
+
+.home__icon-text {
+    color: #EDA32F;
+    max-width: 280px;
+    text-align: center;
+}
+
+.home__separator {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.home__mid {
+    padding-top: 100px;
+}
+
+.home__inner-mid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__title1 {
+    padding-bottom: 30px;
+}
+
+.home__text-mid {
+    padding-bottom: 50px;
+    color: #CDCDCD;
+}
+
+.home__lide {
+    background-image: url(/imges/beard.jpg);
+    background-repeat: no-repeat;
+    width: 418px;
+    height: 304px;
+    border-radius: 6px;
+}
+
+.home__lide2 {
+    background-image: url(/imges/haircat.jpg);
+    background-repeat: no-repeat;
+    width: 418px;
+    height: 304px;
+    border-radius: 6px;
+}
+
+.home__lide3 {
+    background-image: url(/imges/tatu.jpg);
+    background-repeat: no-repeat;
+    width: 418px;
+    height: 304px;
+    border-radius: 6px;
+}
+
+.home__lide4 {
+    background-image: url(/imges/haircat-man1.jpg);
+    background-repeat: no-repeat;
+    width: 418px;
+    height: 304px;
+    border-radius: 6px;
+}
+
+.home__lide5 {
+    background-image: url(/imges/king1.jpg);
+    background-repeat: no-repeat;
+    width: 418px;
+    height: 304px;
+    border-radius: 6px;
+}
+
+.home__lide6 {
+    background-image: url(/imges/laying1.jpg);
+    background-repeat: no-repeat;
+    width: 418px;
+    height: 304px;
+    border-radius: 6px;
+}
+
+.home__uslug-title {
+    padding-top: 20px;
+    padding-bottom: 42px;
+    padding-left: 18px;
+}
+
+.home__uslug-text {
+    padding-left: 18px;
+    font-size: 20px;
+    color: #CDCDCD;
+}
+
+.home__btn {
+    display: flex;
+    justify-content: end;
+    padding-right: 20px;
+    padding-top: 85px;
+}
+
+.home__gif {
+    padding-top: 100px;
+    width: 1890px;
+}
+
+.home__down {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.home__inner-down {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.home__title2 {
+    padding-bottom: 50px;
+}
+
+.home__text-down {
+    padding-bottom: 50px;
+    color: #CDCDCD;
+}
+
+.home__barber {
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    gap: 80px 50px;
+}
+
+.home__barber-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.barber__img {
+    border-radius: 6px 6px 0px 0px;
+}
+
+.home__barber-content {
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+.home__content-barber {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home__barber-title {
+    padding-top: 25px;
+    padding-left: 30px;
+    font-size: 24px;
+}
+
+.home__barber-text {
+    padding-left: 30px;
+    padding-top: 8px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.75);
+    ;
+}
+
+.home__btn-down {
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+.home__uy {
+    display: flex;
+}
+
+.card__btn {
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    transition: background-color .4s, color .4s;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1920px) {
+    .home__gif {
+        width: 100%;
+    }
+}
+
+@media (max-width: 1600px) {
+    .home__text {
+        max-width: 900px;
+    }
+    
+    .home__icon {
+        margin-top: 120px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .home {
+        padding-top: 80px;
+    }
+    
+    .home__text {
+        max-width: 800px;
+    }
+    
+    .home__icon {
+        margin-top: 100px;
+        padding: 0 30px;
+    }
+    
+    .home__icon-text {
+        max-width: 240px;
+    }
+    
+    .home__lide, 
+    .home__lide2, 
+    .home__lide3, 
+    .home__lide4, 
+    .home__lide5, 
+    .home__lide6 {
+        width: 300px;
+        height: 226px;
+    }
+
+    .home__btn {
+    padding-right: 10px;
+    padding-top: 15px;
+    }
+    
+    .home__barber {
+        gap: 60px 40px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .home {
+        padding-top: 70px;
+    }
+    
+    .home__title {
+        padding-bottom: 40px;
+    }
+    
+    .home__text {
+        max-width: 700px;
+    }
+    
+    .home__icon {
+        margin-top: 80px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+    
+    .home__icon-item {
+        flex: 0 0 calc(50% - 40px);
+    }
+    
+    .home__separator,
+    .home__mid,
+    .home__gif {
+        padding-top: 80px;
+    }
+    
+    .home__lide, 
+    .home__lide2, 
+    .home__lide3, 
+    .home__lide4, 
+    .home__lide5, 
+    .home__lide6 {
+        width: 320px;
+        height: 212px;
+    }
+    
+    .home__barber {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+    
+    .home__down {
+        padding-bottom: 80px;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding-top: 60px;
+    }
+    
+    .home__title {
+        padding-bottom: 30px;
+    }
+    
+    .home__text {
+        max-width: 600px;
+    }
+    
+    .home__icon {
+        margin-top: 60px;
+        padding: 0 20px;
+    }
+    
+    .home__icon-img {
+        padding-bottom: 40px;
+    }
+    
+    .home__separator,
+    .home__mid,
+    .home__gif {
+        padding-top: 60px;
+    }
+    
+    .home__title1,
+    .home__title2 {
+        padding-bottom: 20px;
+    }
+    
+    .home__text-mid,
+    .home__text-down {
+        padding-bottom: 40px;
+    }
+
+    .home__lide, 
+    .home__lide2, 
+    .home__lide3, 
+    .home__lide4, 
+    .home__lide5, 
+    .home__lide6 {
+        width: 200px;
+        height: 362px;
+    }
+    
+    
+    .home__uslug-title {
+        padding-top: 5px;
+        padding-bottom: 30px;
+    }
+    
+    .home__uslug-text {
+        font-size: 18px;
+    }
+    
+    .home__btn {
+        padding-top: 60px;
+    }
+    
+    .home__barber-title {
+        font-size: 22px;
+    }
+    
+    .home__barber-text {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 480px) {
+    .home {
+        padding-top: 40px;
+    }
+    
+    .home__title {
+        padding-bottom: 20px;
+    }
+    
+    .home__text {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+    
+    .home__icon {
+        margin-top: 40px;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding: 0;
+    }
+    
+    .home__icon-item {
+        flex: 0 0 100%;
+    }
+    
+    .home__icon-img {
+        padding-bottom: 20px;
+    }
+    
+    .home__separator,
+    .home__mid,
+    .home__gif {
+        padding-top: 40px;
+    }
+    
+    .home__lide, 
+    .home__lide2, 
+    .home__lide3, 
+    .home__lide4, 
+    .home__lide5, 
+    .home__lide6 {
+        width: 120px;
+        height: 203px;
+    }
+    
+    .home__uslug-title {
+        padding-left: 10px;
+        font-size: 16px;
+    }
+    
+    .home__uslug-text {
+        padding-left: 10px;
+        font-size: 10px;
+    }
+    
+    .home__btn {
+        padding-right: 1px;
+        padding-top: 40px;
+    }
+    
+    .home__down {
+        padding-top: 30px;
+        padding-bottom: 60px;
+    }
+    
+    .home__barber {
+        gap: 30px;
+    }
+    
+    .home__barber-title {
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    
+    .home__barber-text {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    
+    .card__btn {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+@media (max-width: 320px) {
+    .home {
+        padding-top: 30px;
+    }
+    
+    .home__title {
+        padding-bottom: 15px;
+    }
+    
+    .home__icon {
+        margin-top: 30px;
+    }
+    
+    .home__separator,
+    .home__mid,
+    .home__gif {
+        padding-top: 30px;
+    }
+    
+    .home__lide, 
+    .home__lide2, 
+    .home__lide3, 
+    .home__lide4, 
+    .home__lide5, 
+    .home__lide6 {
+        width: 90px;
+        height: 220px;
+    }
+    
+    .home__uslug-title {
+        padding-bottom: 20px;
+    }
+    
+    .home__text-mid,
+    .home__text-down {
+        padding-bottom: 30px;
+    }
+    
+    .home__btn {
+        padding-top: 0px;
+    }
+    
+    .home__barber-title {
+        font-size: 18px;
+    }
+    
+    .home__barber-text {
+        font-size: 15px;
+    }
+    
+    .card__btn {
+        width: 45px;
+        height: 45px;
+    }
+}

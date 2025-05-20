@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html class="html" lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="OOO">
+  <meta http-equiv="content-type" content="public, max-age=3600">
+  <meta name="theme-color" content="#fff">
+  <title>OldMan</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="shortcut icon" href="images/favicon.svg" type="image/x-icon">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="body">
+  <div class="fon">
+    <header class="header" id="header">
+      <div class="container">
+        <div class="header__inner">
+          <img class="logo" src="imges/icon/logo.svg" alt="logo">
+          <div class="menu-header">
+            <div class="menu-btn__burger">
+            </div>
+          </div>
+          <nav class="header__nav">
+            <ul class="header__list">
+              <li>
+                <a class="header__link" href="http://127.0.0.1:5500/index.html">Главная</a>
+              </li>
+              <li>
+                <a class="header__link" href="http://127.0.0.1:5500/services.html">Услуги</a>
+              </li>
+              <li>
+                <a class="header__link" href="http://127.0.0.1:5500/news.html">Новости</a>
+              </li>
+              <li>
+                <a class="header__link" href="http://127.0.0.1:5500/vakansi.html">Вакансии</a>
+              </li>
+              <li>
+                <a class="header__link" href="http://127.0.0.1:5500/contact.html">Контакты</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <nav class="header__mobile">
+        <ul class="header__list">
+          <li>
+            <a class="header__link" href="http://127.0.0.1:5500/index.html">Главная</a>
+          </li>
+          <li>
+            <a class="header__link" href="http://127.0.0.1:5500/services.html">Услуги</a>
+          </li>
+          <li>
+            <a class="header__link" href="http://127.0.0.1:5500/news.html">Новости</a>
+          </li>
+          <li>
+            <a class="header__link" href="http://127.0.0.1:5500/vakansi.html">Вакансии</a>
+          </li>
+          <li>
+            <a class="header__link" href="http://127.0.0.1:5500/contact.html">Контакты</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="header__dow">
+      <div class="container">
+        <div class="header__down">
+          <h1 class="header__title">Лютый OldMan Barbershop</h1>
+          <p class="header__text">Рады видеть вас в нашем барбершопе</p>
+        </div>
+        <div class="header__button">
+          <button class="btn" id="buttonm" type="buttonm">Записаться сейчас</button>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <div class="container">
+    <div class="modal">
+      <div class="modal__inner-exit">
+        <img class="modal__exit" src="imges/icon/Exit.svg">
+      </div>
+      <div class="modal__container">
+        <div class="modal__inner">
+          <div class="modal__head">
+            <p class="modal__text">
+              Заявка
+            </p>
+            <img class="modal__separator" src="imges/icon/modal-separator.svg">
+          </div>
+          <div class="modal__mid">
+            <div class="modal__form">
+              <p class="modal__text2">
+                Имя
+              </p>
+              <form action="" class="modal__item">
+                <input class="modal__text3" maxlength="50" required placeholder="Ваше имя....">
+              </form>
+            </div>
+            <div class="modal__form">
+              <p class="modal__text2">
+                Телефон
+              </p>
+              <form class="modal__item">
+                <input class="modal__text3" maxlength="50" required placeholder="+7 999-999-99-99">
+              </form>
+            </div>
+          </div>
+          <div class="modal__down">
+            <div class="modal__btn-down">
+              <button onclick="location.reload()" id="reset" class="modal-btn">Оставить заявку</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <section class="home">
+      <div class="container">
+        <div class="home__inner">
+          <h2 class="home__title">OldMan — Барбершоп с твоим характером</h2>
+          <p class="home__text">
+            У нас есть всё, что требуется настоящему мужчине: атмосфера брутальности и
+            мужского духа, профессионализм барберов и сохранение европейских традиций
+            барберинга, а также отличный кофе и хорошая компания
+          </p>
+        </div>
+        <ul class="home__icon">
+          <li class="home__icon-item">
+            <img class="home__icon-img" src="imges/icon/coffee-cup.svg" alt="">
+            <p class="home__icon-text">
+              Лучший кофе
+            </p>
+          </li>
+          <li class="home__icon-item">
+            <img class="home__icon-img" src="imges/icon/medal.svg" alt="">
+            <p class="home__icon-text">
+              пострижем и побреем Вас на высшем уровне
+            </p>
+          </li>
+          <li class="home__icon-item">
+            <img class="home__icon-img" src="imges/icon/bro.svg" alt="">
+            <p class="home__icon-text">
+              лучшие барберы
+            </p>
+          </li>
+        </ul>
+      </div>
+      <div class="container-separator">
+        <div class="home__separator">
+          <img src="imges/icon/Line 1.svg">
+        </div>
+      </div>
+    </section>
+    <section class="home__mid">
+      <div class="container">
+        <div class="home__inner-mid">
+          <h2 class="home__title1">Услуги барбершопа</h2>
+          <p class="home__text-mid">
+            Основные услуги OldMan Barbershop
+          </p>
+        </div>
+        <div class="swiper">
+          <div class="home__uy">
+            <button class="card__btn card__btn--next" type="button">
+              <img src="imges/icon/arrow-slide1.svg">
+            </button>
+            <button class="card__btn card__btn--prev" type="button">
+              <img src="imges/icon/arrow-slide2.svg">
+            </button>
+          </div>
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="home__lide">
+                <p class="home__uslug-title">Опасное бриитье</p>
+                <p class="home__uslug-text">
+                  Цена: от 9999 руб.
+                </p>
+                <p class="home__uslug-text">
+                  Время: 10-20 мин.
+                </p>
+                <div class="home__btn">
+                  <button class="btn-uslug" id="buttonm2" type="buttonm2">Записаться</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="home__lide2">
+                <p class="home__uslug-title">Стрижка усов и бороды</p>
+                <p class="home__uslug-text">
+                  Цена: от 9999 руб.
+                </p>
+                <p class="home__uslug-text">
+                  Время: 10-20 мин.
+                </p>
+                <div class="home__btn">
+                  <button class="btn-uslug" id="buttonm4" type="buttonm4">Записаться</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="home__lide3">
+                <p class="home__uslug-title">Нанесение татуировок</p>
+                <p class="home__uslug-text">
+                  Цена: от 9999 руб.
+                </p>
+                <p class="home__uslug-text">
+                  Время: 10-20 мин.
+                </p>
+                <div class="home__btn">
+                  <button class="btn-uslug" id="buttonm3" type="buttonm3">Записаться</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="home__lide4">
+                <p class="home__uslug-title">Мужские стрижки</p>
+                <p class="home__uslug-text">
+                  Цена: от 9999 руб.
+                </p>
+                <p class="home__uslug-text">
+                  Время: 10-20 мин.
+                </p>
+                <div class="home__btn">
+                  <button class="btn-uslug" id="buttonm5" type="buttonm5">Записаться</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="home__lide5">
+                <p class="home__uslug-title">Королевское бритье</p>
+                <p class="home__uslug-text">
+                  Цена: от 9999 руб.
+                </p>
+                <p class="home__uslug-text">
+                  Время: 10-20 мин.
+                </p>
+                <div class="home__btn">
+                  <button class="btn-uslug" id="buttonm6" type="buttonm6">Записаться</button>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="home__lide6">
+                <p class="home__uslug-title">Услуги укладки волос</p>
+                <p class="home__uslug-text">
+                  Цена: от 9999 руб.
+                </p>
+                <p class="home__uslug-text">
+                  Время: 10-20 мин.
+                </p>
+                <div class="home__btn">
+                  <button class="btn-uslug" id="buttonm1" type="buttonm1">Записаться</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img class="home__gif" src="imges/gif/Flow 1@1x-25fps.gif">
+      <div class="container-separator">
+        <div class="home__separator">
+          <img src="imges/icon/Line 1.svg">
+        </div>
+      </div>
+    </section>
+    <section class="home__down">
+      <div class="container">
+        <div class="home__inner-down">
+          <h2 class="home__title2">Наши барберы</h2>
+          <p class="home__text-down">
+            Топ барберы 2024 года
+          </p>
+        </div>
+        <ul class="home__barber">
+          <li class="home__barber-item">
+            <img class="barber__img" src="imges/Valera.jpg">
+            <div class="home__barber-content">
+              <h3 class="home__barber-title">
+                Валера Мощный
+              </h3>
+              <div class="home__content-barber">
+                <p class="home__barber-text">
+                  Топ-барбер с сентября 2024
+                </p>
+                <div class="home__btn-down">
+                  <button class="btn-barber" id="button-Valera" type="button-Valera">Поддробнее</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="home__barber-item">
+            <img class="barber__img" src="imges/Ded.jpg">
+            <div class="home__barber-content">
+              <h3 class="home__barber-title">
+                Дед с ножницами
+              </h3>
+              <div class="home__content-barber">
+                <p class="home__barber-text">
+                  Топ-барбер с ноября 2024
+                </p>
+                <div class="home__btn-down">
+                  <button class="btn-barber" id="button-ded" type="button-ded">Поддробнее</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="home__barber-item">
+            <img class="barber__img" src="imges/Leha.jpg">
+            <div class="home__barber-content">
+              <h3 class="home__barber-title">
+                Леха Лысый
+              </h3>
+              <div class="home__content-barber">
+                <p class="home__barber-text">
+                  Топ-барбер с октября 2024
+                </p>
+                <div class="home__btn-down">
+                  <button class="btn-barber" id="button-leha" type="button-leha">Поддробнее</button>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="home__barber-item">
+            <img class="barber__img" src="imges/psih.jpg">
+            <div class="home__barber-content">
+              <h3 class="home__barber-title">
+                Псих с ножницами
+              </h3>
+              <div class="home__content-barber">
+                <p class="home__barber-text">
+                  Топ-барбер с декабря 2024
+                </p>
+                <div class="home__btn-down">
+                  <button class="btn-barber" id="button-psih" type="button-psih">Поддробнее</button>
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <div class="container">
+      <div class="modal__barber-Valera">
+        <div class="modal__inner-barber">
+          <img class="modal__img" src="imges/modal/valera-modal.jpg">
+          <div class="modal__item-barber">
+            <div class="modal__inner-exit">
+              <img class="modal__exit valera__exit" src="imges/icon/Exit.svg">
+            </div>
+            <div class="modal__barber-item">
+              <h1 class="modal__title">
+                Валера Мощный
+              </h1>
+              <p class="modal__text-barber">
+                Это не просто барбер, это шеф по стилю, скульптор образов и генератор уверенности. Его машинка звучит
+                как
+                мотор спорткара, а каждый срез — как выстрел по неуверенности. В кресле у Валеры ты не просто
+                становишься
+                свежим — ты становишься мощным. Он чувствует стиль, как рокер — ритм, и знает, где добавить
+                брутальности,
+                а где — оставить тонкую грань элегантности.
+              </p>
+              <p class="modal__date">
+                Работает барбером с 2023 года
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__barber-ded">
+        <div class="modal__inner-barber">
+          <img class="modal__img" src="imges/modal/ded-modal.jpg">
+          <div class="modal__item-barber">
+            <div class="modal__inner-exit">
+              <img class="modal__exit ded__exit" src="imges/icon/Exit.svg">
+            </div>
+            <div class="modal__barber-item">
+              <h1 class="modal__title">
+                Дед с ножницами
+              </h1>
+              <p class="modal__text-barber">
+                Его ножницы — продолжение характера: точные, быстрые и всегда знают, что делают. За плечами — годы
+                опыта,
+                сотни довольных клиентов и столько историй, что хватит на барберский сериал. Он не говорит много — за
+                него
+                говорит результат. Уважение, стиль и чёткая линия — его кредо.
+              </p>
+              <p class="modal__date">
+                Работает барбером с 2022 года
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__barber-leha">
+        <div class="modal__inner-barber">
+          <img class="modal__img" src="imges/modal/leha-modal.jpg">
+          <div class="modal__item-barber">
+            <div class="modal__inner-exit">
+              <img class="modal__exit leha__exit" src="imges/icon/Exit.svg">
+            </div>
+            <div class="modal__barber-item">
+              <h1 class="modal__title">
+                Леха Лысый
+              </h1>
+              <p class="modal__text-barber">
+                Барбер, у которого рука точнее скальпеля, а стиль — острее лезвия. Лысина сверкает не потому, что так
+                проще, а потому что это — выбор мастера, который знает всё о мужских образах. В кресле у Лёхи не просто
+                стригут — здесь происходит перезагрузка. Он видит, каким ты хочешь быть, ещё до того, как ты сам это
+                понял.
+              </p>
+              <p class="modal__date">
+                Работает барбером с 2023 года
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal__barber-psih">
+        <div class="modal__inner-barber">
+          <img class="modal__img" src="imges/modal/psih-modal.jpg">
+          <div class="modal__item-barber">
+            <div class="modal__inner-exit">
+              <img class="modal__exit psih__exit" src="imges/icon/Exit.svg">
+            </div>
+            <div class="modal__barber-item">
+              <h1 class="modal__title">
+                Псих с ножницами
+              </h1>
+              <p class="modal__text-barber">
+                В его глазах огонь, в руках — точность хирурга и сумасшедший креатив. Он не просто стрижёт — он творит
+                на
+                грани гениальности и безумия. Каждый фейд — как артхаусное кино, каждый переход — как финальный аккорд
+                рок-концерта. Никаких скучных шаблонов, только стиль, энергия и индивидуальность.
+              </p>
+              <p class="modal__date">
+                Работает барбером с 2022 года
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <div class="container-separator">
+      <img class="footer__line" src="imges/icon/Line 1.svg">
+    </div>
+    <div class="container">
+      <div class="footer__inner">
+        <img src="imges/icon/logo.svg" alt="logo">
+        <nav class="footer__nav">
+          <ul class="footer__list">
+            <li>
+              <a class="footer__link" href="http://127.0.0.1:5500/index.html">Главная</a>
+            </li>
+            <li>
+              <a class="footer__link" href="http://127.0.0.1:5500/services.html">Услуги</a>
+            </li>
+            <li>
+              <a class="footer__link" href="http://127.0.0.1:5500/news.html">Новости</a>
+            </li>
+            <li>
+              <a class="footer__link" href="http://127.0.0.1:5500/vakansi.html">Вакансии</a>
+            </li>
+            <li>
+              <a class="footer__link" href="http://127.0.0.1:5500/contact.html">Контакты</a>
+            </li>
+            <li class="footer__logo">
+              <img src="imges/icon/Telegram 1.svg" alt="logo">
+              <img src="imges/icon/Vk 1.svg" alt="logo">
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/main.js" type="module"></script>
+</body>
+
+</html>

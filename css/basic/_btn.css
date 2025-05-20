@@ -1,0 +1,355 @@
+.btn {
+    border-radius: 30px;
+    color: #fff;
+    background-color: #D6A354;
+    border: 2px solid transparent;
+    transition: background-color .4s, border .4s, color .4s;
+    width: 312px;
+    height: 61px;
+}
+
+.btn:hover {
+    background-color: #D6A354;
+    border-color: #975c02;
+}
+
+.btn:focus {
+    background-color: #fc9802;
+    color: white;
+    border-color: transparent;
+}
+
+.btn-uslug {
+    font-size: 21px;
+    border-radius: 20px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid #fc9802;
+    transition: background-color .4s, border .4s, color .4s;
+    width: 161px;
+    height: 45px;
+}
+
+.btn-uslug:hover {
+    border-color: #000000;
+}
+
+.btn-uslug:focus {
+    color: white;
+}
+
+.btn-barber {
+    font-size: 24px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #D6A354;
+    border: 2px solid #fc9802;
+    transition: background-color .4s, border .4s, color .4s;
+    width: 250px;
+    height: 52px;
+}
+
+.btn-barber:hover {
+    border-color: transparent;
+    border-color: #975c02;
+}
+
+.btn-barber:focus {
+    color: white;
+    background-color: #975c02;
+}
+
+.btn-services {
+    font-size: 24px;
+    border-radius: 30px;
+    border-color: #fc9802;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.4);
+    border: 2px solid #fc9802;
+    transition: background-color .4s, border .4s, color .4s;
+    width: 232px;
+    height: 52px;
+}
+
+.btn-services:hover {
+    border-color: #000000;
+}
+
+.btn-services:focus {
+    color: white;
+}
+
+.btn-news {
+    font-size: 20px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #D6A354;
+    border: 2px solid transparent;
+    transition: background-color .4s, border .4s, color .4s;
+    width: 180px;
+    height: 57px;
+}
+
+.btn-news:hover {
+    border-color: transparent;
+    border-color: #ffffff;
+}
+
+.btn-news:focus {
+    color: white;
+}
+
+.vakansi-btn {
+    font-size: 20px;
+    border-radius: 14px;
+    color: #fff;
+    background-color: #D6A354;
+    border: 2px solid transparent;
+    transition: background-color .4s, border .4s, color .4s;
+    width: 295px;
+    height: 65px;
+}
+
+.vakansi-btn:hover {
+    border-color: transparent;
+    border-color: #ffffff;
+}
+
+.vakansi-btn:focus {
+    color: white;
+}
+
+.modal-btn {
+    font-size: 24px;
+    border-radius: 30px;
+    color: #fff;
+    background-color: #D6A354;
+    border: 2px solid transparent;
+    transition: background-color .4s, border .4s, color .4s;
+    width: 259px;
+    height: 60px;
+}
+
+.modal-btn:hover {
+    border-color: transparent;
+    border-color: #000;
+}
+
+.modal-btn:focus {
+    color: white;
+}
+
+@media (max-width: 1600px) {
+    .btn {
+        width: 280px;
+        height: 55px;
+    }
+    
+    .btn-barber, 
+    .btn-services {
+        width: 220px;
+        height: 48px;
+        font-size: 22px;
+    }
+    
+    .modal-btn {
+        width: 230px;
+        height: 55px;
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 1280px) {
+    .btn {
+        width: 250px;
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    .btn-uslug {
+        width: 140px;
+        height: 40px;
+        font-size: 18px;
+    }
+    
+    .btn-barber, 
+    .btn-services {
+        width: 200px;
+        height: 45px;
+        font-size: 20px;
+    }
+    
+    .btn-news {
+        width: 160px;
+        height: 50px;
+        font-size: 18px;
+    }
+    
+    .vakansi-btn {
+        width: 260px;
+        height: 58px;
+        font-size: 18px;
+    }
+    
+    .modal-btn {
+        width: 210px;
+        height: 52px;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .btn {
+        width: 220px;
+        height: 48px;
+        font-size: 16px;
+    }
+    
+    .btn-uslug {
+        width: 130px;
+        height: 38px;
+        font-size: 16px;
+    }
+    
+    .btn-barber, 
+    .btn-services {
+        width: 180px;
+        height: 42px;
+        font-size: 18px;
+    }
+    
+    .btn-news {
+        width: 150px;
+        height: 45px;
+        font-size: 16px;
+    }
+    
+    .vakansi-btn {
+        width: 230px;
+        height: 52px;
+        font-size: 16px;
+    }
+    
+    .modal-btn {
+        width: 190px;
+        height: 48px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn {
+        width: 200px;
+        height: 45px;
+        font-size: 15px;
+    }
+    
+    .btn-uslug {
+        width: 120px;
+        height: 35px;
+        font-size: 14px;
+    }
+    
+    .btn-barber, 
+    .btn-services {
+        width: 160px;
+        height: 40px;
+        font-size: 16px;
+    }
+    
+    .btn-news {
+        width: 140px;
+        height: 42px;
+        font-size: 15px;
+    }
+    
+    .vakansi-btn {
+        width: 200px;
+        height: 48px;
+        font-size: 15px;
+    }
+    
+    .modal-btn {
+        width: 170px;
+        height: 45px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        width: 180px;
+        height: 42px;
+        font-size: 14px;
+    }
+    
+    .btn-uslug {
+        width: 110px;
+        height: 32px;
+        font-size: 13px;
+    }
+    
+    .btn-barber, 
+    .btn-services {
+        width: 140px;
+        height: 38px;
+        font-size: 14px;
+    }
+    
+    .btn-news {
+        width: 120px;
+        height: 38px;
+        font-size: 13px;
+    }
+    
+    .vakansi-btn {
+        width: 180px;
+        height: 45px;
+        font-size: 14px;
+    }
+    
+    .modal-btn {
+        width: 150px;
+        height: 42px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 320px) {
+    .btn {
+        width: 160px;
+        height: 40px;
+        font-size: 13px;
+    }
+    
+    .btn-uslug {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    
+    .btn-barber, 
+    .btn-services {
+        width: 130px;
+        height: 36px;
+        font-size: 13px;
+    }
+    
+    .btn-news {
+        width: 110px;
+        height: 36px;
+        font-size: 12px;
+    }
+    
+    .vakansi-btn {
+        width: 160px;
+        height: 42px;
+        font-size: 13px;
+    }
+    
+    .modal-btn {
+        width: 140px;
+        height: 40px;
+        font-size: 13px;
+    }
+}

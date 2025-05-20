@@ -1,0 +1,63 @@
+.html {
+    overflow-x: hidden;
+}
+
+.html.active {
+    overflow-y: hidden;
+}
+
+.body {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: sans-serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 20;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .4s, visibility .4s;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+body.active::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.container {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.container-vakansi {
+    max-width: 1690px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.container-contact {
+    max-width: 1690px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.container-separator {
+    max-width: 1582px;
+    margin: 0 auto;
+}
+
+.modal__container {
+    max-width: 604px;
+    margin: 0 auto;
+}
