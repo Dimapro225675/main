@@ -1,5 +1,5 @@
 .fon {
-  background-image: url(/imges/fon1.png);
+  background-image: url(../../imges/fon1.png);
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 100vh;
@@ -67,28 +67,28 @@
 }
 
 .fon2 {
-  background-image: url(/imges/fon2.jpg);
+  background-image: url(../../imges/fon2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 510px;
 }
 
 .foon3 {
-  background-image: url(/imges/fon3.jpg);
+  background-image: url(../../imges/fon3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 510px;
 }
 
 .foon4 {
-  background-image: url(/imges/fon4.jpg);
+  background-image: url(../../imges/fon4.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 510px;
 }
 
 .foon5 {
-  background-image: url(/imges/fon5.jpg);
+  background-image: url(../../imges/fon5.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 510px;

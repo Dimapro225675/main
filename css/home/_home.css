@@ -66,7 +66,7 @@
 }
 
 .home__lide {
-    background-image: url(/imges/beard.jpg);
+    background-image: url(../../imges/beard.jpg);
     background-repeat: no-repeat;
     width: 418px;
     height: 304px;
@@ -74,7 +74,7 @@
 }
 
 .home__lide2 {
-    background-image: url(/imges/haircat.jpg);
+    background-image: url(../../imges/haircat.jpg);
     background-repeat: no-repeat;
     width: 418px;
     height: 304px;
@@ -82,7 +82,7 @@
 }
 
 .home__lide3 {
-    background-image: url(/imges/tatu.jpg);
+    background-image: url(../../imges/tatu.jpg);
     background-repeat: no-repeat;
     width: 418px;
     height: 304px;
@@ -90,7 +90,7 @@
 }
 
 .home__lide4 {
-    background-image: url(/imges/haircat-man1.jpg);
+    background-image: url(../../imges/haircat-man1.jpg);
     background-repeat: no-repeat;
     width: 418px;
     height: 304px;
@@ -98,7 +98,7 @@
 }
 
 .home__lide5 {
-    background-image: url(/imges/king1.jpg);
+    background-image: url(../../imges/king1.jpg);
     background-repeat: no-repeat;
     width: 418px;
     height: 304px;
@@ -106,7 +106,7 @@
 }
 
 .home__lide6 {
-    background-image: url(/imges/laying1.jpg);
+    background-image: url(../../imges/laying1.jpg);
     background-repeat: no-repeat;
     width: 418px;
     height: 304px;

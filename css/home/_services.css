@@ -10,32 +10,32 @@
 }
 
 .foon1 {
-    background-image: url(/imges/beard1.jpg);
+    background-image: url(../../imges/beard1.jpg);
     border-radius: 6px;
 }
 
 .foon2 {
-    background-image: url(/imges/haircat1.jpg);
+    background-image: url(../../imges/haircat1.jpg);
     border-radius: 6px;
 }
 
 .fon3 {
-    background-image: url(/imges/tatu1.jpg);
+    background-image: url(../../imges/tatu1.jpg);
     border-radius: 6px;
 }
 
 .fon4 {
-    background-image: url(/imges/haircat-man.jpg);
+    background-image: url(../../imges/haircat-man.jpg);
     border-radius: 6px;
 }
 
 .fon5 {
-    background-image: url(/imges/king.jpg);
+    background-image: url(../../imges/king.jpg);
     border-radius: 6px;
 }
 
 .fon6 {
-    background-image: url(/imges/laying.jpg);
+    background-image: url(../../imges/laying.jpg);
     border-radius: 6px;
 }
 
